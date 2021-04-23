@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.baitap {
+  width: 400px;
+  margin: 32px 0px;
+}
+
+.clickme {
+  border-radius: 3px;
+  border: none;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+
+#block1 {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+#block2 {
+  background-color: rgb(69, 226, 187);
+  width: 200px;
+  height: 200px;
+}
+
+#block3_1 {
+  background-color: rgb(73, 124, 172);
+  width: 100px;
+  height: 100px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+#block3_2 {
+  background-color: rgb(62, 29, 151);
+  width: 100px;
+  height: 100px;
+  padding: 8px;
+}
+
+#block4 {
+  background-color: rgb(141, 46, 150);
+  width: 200px;
+  height: 200px;
+}
